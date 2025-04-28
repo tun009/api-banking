@@ -24,15 +24,21 @@ This project is a NestJS-based application for banking operations. Follow the st
 
 ## Configuration
 
-Before running the application, update the required credentials in the application module. Open the relevant file in the `src` folder and provide the following information:
+Before running the application, update the required credentials in the application module:
 
-```javascript
-username: 'your_username',
-access_code: 'your_access_code',
-id_number: 'your_id_number'
-```
+1. Open the file `src/app.module.ts` located in the `examples/vtb-banking` directory.
+2. Find the section where the credentials are defined and replace the placeholder values with your actual credentials:
+   ```javascript
+   username: 'your_username',
+   access_code: 'your_access_code',
+   id_number: 'your_id_number'
+   ```
+   Replace:
+   - `your_username` with your actual username.
+   - `your_access_code` with your actual access code.
+   - `your_id_number` with your actual ID number.
 
-Replace the placeholder values (`your_username`, `your_access_code`, `your_id_number`) with your actual credentials.
+Save the file after making the changes.
 
 ## Running the Application
 
