@@ -8,9 +8,9 @@ import { AppService } from './app.service';
     ICBModule.forRoot({
       baseUrl: 'https://api-ipay.vietinbank.vn',
       auth: {
-        username: '0981273158',
-        access_code: 'Th28092002',
-        id_number: '108882919487',
+        username: 'your_username',
+        access_code: 'your_access_code',
+        id_number: 'your_id_number',
       },
     }),
   ],
